@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Estoque de Produtos</title>
+</head>
+<body>
+    <h1>Bem-vindo ao estoque de produtos!</h1>
+    <p>Total de produtos: {{ total_products }}</p>
+    <p><a href="{{ url_for('products') }}">Ver produtos</a></p>
+</body>
+</html>
